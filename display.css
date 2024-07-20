@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    outline: none; 
+    
+}
+body{
+    background-color: rgb(255, 165, 116);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 250px;
+}
+.container{
+    width: 600px;
+    background-color: rgb(255, 255, 255);
+    height: 400px;
+    position:relative ;
+    transform: translate(0%,-25%);
+    border-radius: 10px;
+    box-shadow:10px 10px 10px 10px rgba(0, 0, 0, 0.344);
+}
+.meaning-body{
+    display: flex;
+    flex-direction: column;
+}
+.search-box{
+    width: 100%;
+    padding: 6px;
+    display: flex;
+    margin-left: 102px;
+    margin-top: 100px;
+
+}
+.search-box input{
+    border-bottom: 3px solid rgb(255, 165, 116);
+    padding-left: 2px;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.search-box button{
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 8px;
+    width: 20%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 165, 116);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+.word-name{
+    padding-left: 106px;
+    margin-top: 18px;
+    font-size: medium;
+}
+.word-meaning{
+    margin-top: 30px;
+    font-size: 15px;
+    padding: 2px;
+}
+.word-in-sentence p{
+    font-style:italic;
+}
+.error-time{
+    display: none;
+    margin-top: 20px;
+    margin-left:140px ;
+}
